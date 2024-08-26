@@ -1,0 +1,134 @@
+header, footer{
+    color: aliceblue;
+    background-color: rgb(115, 109, 100);
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+}
+span{
+    text-align:left;
+    justify-content: end;
+}
+
+.pagina1{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: 100% 100vh;
+    color: whitesmoke;
+    margin: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh
+}
+.fondo{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pagina2{
+    background-color: #c2a889;
+    background-size: 100% 100vh;
+    color: whitesmoke;
+    margin: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding: 0px 20px;
+    font-size: 36px;
+    margin-right: 100PX;
+    text-align:right;
+    margin-right: 0px;
+}
+h4{
+    font-size: 1.5rem;   
+}
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.fotos{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 60px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+    transition: 200ms;
+    box-shadow: 0px 0px 2px 2px rgb(136, 130, 130);
+}
+#contenedor-fotos{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+    padding: 10px 40px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .8px;
+    line-height: 18px;
+    position:relative;
+    text-align: center;
+    opacity: 1;
+    white-space: nowrap;
+}
+.boton-compra{
+    padding: 15px;
+    text-align: right;
+    width: 300px;
+    margin-left: 500px;
+    background-color: rgb(115, 109, 100);
+    &:hover{
+        background-color: whitesmoke;
+        color: rgb(60, 58, 58);
+    }
+}
+main{
+    padding: 80px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 600px;
+    position: absolute;
+    right:10px;
+    top: 150px;
+    text-align: center;
+    div{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 24px;
+        line-height: 50px;
+        text-align:center;         
+}
+}
+.alineacion{
+    text-align:right;
+    margin-right: 0px;
+}
+footer{
+    margin-top: auto;
+}
+.boton-inicio{
+    width: 100px;
+    height: 100px;
+    margin-left: 500px;
+}
