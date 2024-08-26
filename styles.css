@@ -12,7 +12,6 @@ span{
     text-align:left;
     justify-content: end;
 }
-
 .pagina1{
     background-image: url(imagenes/fondo.jpg);
     background-size: 100% 100vh;
@@ -30,7 +29,6 @@ span{
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .pagina2{
     background-color: #c2a889;
     background-size: 100% 100vh;
